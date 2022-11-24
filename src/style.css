@@ -1,5 +1,5 @@
 .app{
-  background:transparent;
+  background-image: url('https://i.pinimg.com/originals/57/2f/13/572f13e91ce915a722f9387fe7d52e31.gif');
   width:100vw;
   height: 100vh;
   margin: 0;
@@ -7,4 +7,12 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  
+}
+
+body{
+  background: rgb(176,151,228);
+background: linear-gradient(90deg, rgb(62, 99, 96) 0%, rgba(139, 165, 68, 0.527) 50%, rgb(72, 126, 93) 100%);
+background-size: cover;
+
 }

@@ -1,26 +1,100 @@
-.countdown-timer{
-  background: gray;
-  height: 100%;
-  width: 100%;
-  position: relative;
-
-}
-.countdown-timer2{
-  background: rgba(255, 255, 255, 0);
-  width: 30%;
-  height: 10%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -50px 0 0 -50px;
-  border: 0.2rem solid black;
+.countdown-timer1{
+  text-align: center;
   justify-content: center;
-  align-content: center;
   align-items: center;
+  
+}
+
+h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 3rem;
+	margin-bottom: 30px;
+  color: rgb(187, 80, 8);
+  text-shadow: 2px 3px black;
+  
+}
+
+
+.countdown-timer2{
+  background: rgba(79, 70, 83, 0.555);
+  font-size: 2rem;
+  margin-top:6rem;
+  box-shadow: 2px 3px rgba(65, 64, 64, 0.137);
+  height: 10rem;
 }
 
 .countdown-timer2 span{
   margin-left: 0.3rem;
   margin-right: 0.3rem;
+  margin-top: -3 rem;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(238, 89, 44);
+  text-shadow: 0.4px 1.4px rgba(0, 0, 0, 0.89);
+  font-size: 80px;
 
+
+}
+.footer{
+  background-color:rgba(255, 255, 0, 0.205);
+  margin-top: -1rem;
+  width: 120%;
+  margin-left: -10%;
+  color:rgba(255, 255, 0, 0.205);;
+}
+.footer2{
+  background-color:rgba(156, 91, 165, 0.205);
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  margin-left: 0%;
+  color:rgba(255, 255, 0, 0.205);
+  height: 3rem;
+}
+.frames {
+    width: 50%;
+    float: left;
+    padding: 0.5rem;
+    border: 0.01rem solid rgb(0, 0, 0);
+    
+}
+
+.countdown-timer2{
+  display:flex;
+}
+
+#hi{
+  
+  color:rgb(5, 5, 5);
+  font-family: monospace;
+  font-size:33px;
+  margin-left: 10px;
+  text-shadow: 0.7px 1.5px rgba(0, 0, 0, 0.89);
+}
+
+#bye{
+  color:rgba(238, 89, 44, 0.993);
+  
+}
+
+.btc-is {
+  display: inline-block;
+  text-align: left;
+  color:rgb(5, 5, 5);
+  font-size: 1.35rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline-color: black;
+  outline-style: solid;
+  outline-offset: 2rem;
+  outline-width: 0.1px;
+  text-shadow: 0.5px 0.5px black;
+  border-radius: 2px;
+  
+
+}
+
+.h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(0, 0, 0);
+  
 }

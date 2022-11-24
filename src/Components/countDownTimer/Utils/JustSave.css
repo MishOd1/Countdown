@@ -1,0 +1,24 @@
+.countdown-timer1{
+  background: gray;
+  height: 100rem;
+  width: 100rem;
+  position: relative;
+}
+
+.countdown-timer2{
+  background: orange;
+  font-size: 2rem;
+  width: 40rem;
+  height: 6rem;
+  position: absolute;
+  top: 50%;
+  left:40%;
+  margin: -2% 0 -1% -120px;
+}
+
+.countdown-timer2 span{
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  align-items: center;
+
+}
