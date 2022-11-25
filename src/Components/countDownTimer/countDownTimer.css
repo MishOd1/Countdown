@@ -36,11 +36,11 @@ h1 {
 
 }
 .footer{
-  background-color:rgba(255, 255, 0, 0.205);
+  background-color:rgba(156, 91, 165, 0.205);
   margin-top: -1rem;
-  width: 120%;
-  margin-left: -10%;
-  color:rgba(255, 255, 0, 0.205);;
+  width: 100%;
+  margin-left: 0%;
+  color:rgba(156, 91, 165, 0.205);
 }
 .footer2{
   background-color:rgba(156, 91, 165, 0.205);
@@ -86,9 +86,10 @@ h1 {
   outline-color: black;
   outline-style: solid;
   outline-offset: 2rem;
-  outline-width: 0.1px;
+  outline-width: 0.01px;
   text-shadow: 0.5px 0.5px black;
   border-radius: 2px;
+
   
 
 }
@@ -97,4 +98,15 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:rgb(0, 0, 0);
   
+}
+
+.p{
+  text-align: center;
+}
+
+
+.hello{
+  margin-left:3rem;
+  font-size:1rem;
+  font-family: sans-serif;
 }

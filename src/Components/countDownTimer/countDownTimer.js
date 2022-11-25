@@ -29,6 +29,7 @@ const CountdownTimer = ({countdownTimestampMs}) => {
   }
   return(
     <div className="countdown-timer1">
+        <footer className="footer">'</footer>
             <header>
         <div class="overlay">
           <h1>Countdown To The Next Bitcoin Halving</h1>
@@ -61,15 +62,15 @@ const CountdownTimer = ({countdownTimestampMs}) => {
        <br></br><br></br>
       <h2 className="h2">So, What is Bitcoin halving?</h2>
       <p className="btc-is">
-        <li>A Bitcoin halving event occurs when the reward for mining Bitcoin transactions is cut in half.</li>
-        <li>Halvings reduce the rate at which new coins are created.</li>
-        <li>Previous halvings have correlated with intense boom and bust cycels</li>
-        <li>Bitcoin last halved on May 11, 2020, resulting in a block reward of 6.25 BTC.</li>
-        <li>The final halving will be in 2140 with the maximum supply of 21 million.</li>
+        <p className="p">Block halving events happen every 4 years or 210,000 blocks on Bitcoin blockchain. Bitcoin's initial block reward was 50 BTC.<br></br> The current block reward is 6.25 BTC, the next block reward will be 3.125 BTC. This lowers the rate at which Bitcoins are <br></br>generated. The halving is periodical and is programmed into Bitcoin's code.</p>
+        <li className="hello">A Bitcoin halving event occurs when the reward for mining Bitcoin transactions is cut in half.</li>
+        <li className="hello">Halvings reduce the rate at which new coins are created.</li>
+        <li className="hello">Previous halvings have correlated with intense boom and bust cycels</li>
+        <li className="hello">Bitcoin last halved on May 11, 2020, resulting in a block reward of 6.25 BTC.</li>
+        <li className="hello">The final halving will be in 2140 with the maximum supply of 21 million.</li>
+        
       </p>
-      <p>
-        hello
-      </p>
+      
     </div>  
   );
 }
