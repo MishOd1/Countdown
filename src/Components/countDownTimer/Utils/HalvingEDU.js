@@ -23,7 +23,7 @@ return(
 
       In 2009, the reward for each block in the chain mined was 50 bitcoins. After the first halving, it was 25, and then 12.5, and then it became<br></br> 6.25 bitcoins per block as of May 11, 2020. To put this in another context, imagine if the amount of gold mined out of the Earth was cut<br></br> in half every four years. If gold's value is based on its scarcity, then a "halving" of gold output every four <br></br>years would theoretically drive its price higher.<br></br><br></br>
       <br></br>
-      <App />
+
     </p>
     
   </div>

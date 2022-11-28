@@ -9,12 +9,10 @@
   color:rgb(5, 5, 5);
   font-size: 1.35rem;
   font-family: "Playfair Display";
-  outline-color: black;
-  outline-style: solid;
-  outline-offset: -0.1rem;
-  outline-width: 0.01px;
+  
   text-shadow: 0.7px 0.5px black;
-  border-radius: 6rem;
+
+
   
   
 }
