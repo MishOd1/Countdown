@@ -30,7 +30,7 @@
 
 
 body{
-  background-image: url('./Components/countDownTimer/Background.jpg');
+  background-color: #f3efb27a;
   background-size: cover;
  
 
@@ -38,5 +38,5 @@ body{
 }
 
 .apexcharts-canvas{
-  background:rgba(1, 100, 92, 0.377);
+  background-color: #c2bfa27a;;
 }

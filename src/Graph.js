@@ -121,7 +121,7 @@ export default function Graph(){
   }  
     return(
       <div>
-         <ReactApexChart options={options} series={series} type="line" height={500} />
+         <ReactApexChart options={options} series={series} type="line" height={700} />
       </div>
     )
 }
