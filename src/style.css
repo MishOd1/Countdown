@@ -9,13 +9,6 @@
   justify-content: center;
 }
 
-body{
-  background: rgb(176,151,228);
-background: linear-gradient(90deg, rgb(62, 99, 96) 0%, rgba(139, 165, 68, 0.527) 50%, rgb(72, 126, 93) 100%);
-background-size: cover;
-background-image: url('./Background.jpg');
-background-size: cover;
-}
 
 
 .footerMain{
@@ -32,5 +25,14 @@ background-size: cover;
   bottom: 0px; 
   left: 0px; 
   text-align: center; 
+
+}
+
+
+body{
+  background-image: url('./Components/countDownTimer/Background.jpg');
+  background-size: cover;
+  background-blend-mode: hue;
+
 
 }
