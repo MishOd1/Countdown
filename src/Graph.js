@@ -14,7 +14,7 @@ export default function Graph(){
   }, {
     name: '1 BTC price',
     type: 'line',
-    data: [0.01, 12, 657, 7000, 60000]
+    data: [0.01, 12, 657, 9000, 16200]
   }];
   const options= {
     chart: {

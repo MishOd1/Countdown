@@ -3,8 +3,11 @@ import ReactApexChart from 'react-apexcharts';
 
 function Graph2 (){
   const series= [{
-    data: [50, 25, 12.5, 6.25, 3.125, 1.5625, 0.78125, 0.390625, 0.1953125, 0.09765625, 0.048828125]
-  }],
+    name:'BTC Reward Halving',
+    data: [50, 25, 12.5, 6.25, 3.125, 1.5625, 0.78125, 0.390625, 0.1953125, 0.09765625, 0.048828125],
+
+  }
+],
   const options= {
     chart: {
       type: 'line',
@@ -32,6 +35,18 @@ function Graph2 (){
     annotations: {
       yaxis: [
         {
+          title: {
+            text: "BTC Reward Halving"
+          },
+        },
+        {
+          opposite: true,
+          title: {
+            text: "BTC Price"
+          }
+        },
+
+        {
           y: 6.25,
           borderColor: "#00E396",
           label: {
@@ -42,7 +57,9 @@ function Graph2 (){
             },
             text: "6.25 Reward"
           }
-        }
+          
+        },
+          
       ],
       xaxis: [
         {
@@ -55,6 +72,7 @@ function Graph2 (){
         }
       ]
     }
+    
   }
   return(
     <div>

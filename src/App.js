@@ -5,6 +5,7 @@ import Fotter2 from './Fotter.js'
 import CountdownTimer from './Components/countDownTimer/countDownTimer';
 import Graph from './Graph.js'
 import Graph2 from './Graph2.js'
+import Graph3 from './Graph3.js'
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       countdownTimestampMs={1711251267000}/>
         <div className="Graph2">
           <Graph2/>
+          <Graph3 />
         </div>
         
         <EDU />
