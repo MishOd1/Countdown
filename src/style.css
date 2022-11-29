@@ -38,5 +38,21 @@ body{
 }
 
 .apexcharts-canvas{
-  background-color: #c2bfa27a;;
+  background-color: #c2bfa27a;
+  
+}
+
+.Graph2{
+  margin: auto;
+  width: 50%;
+  margin-top: 3rem;
+  padding: 1px;
+
+}
+
+.Graph1{
+  margin: auto;
+  width: 70%;
+  margin-top: 1rem;
+  padding: 5px;
 }
