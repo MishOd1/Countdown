@@ -58,7 +58,7 @@ function Graph2 (){
   }
   return(
     <div>
-      <ReactApexChart options={options} series={series} type="line" height={500} width={750}  />
+      <ReactApexChart options={options} series={series} type="line" height={500} />
     </div>
   )
 }
