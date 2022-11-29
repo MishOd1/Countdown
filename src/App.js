@@ -13,8 +13,9 @@ function App() {
       <CountdownTimer
       countdownTimestampMs={1711251267000}/>
         <div className="Graph2">
-        <Graph2/>
+          <Graph2/>
         </div>
+        
         <EDU />
         <div className="Graph1">
           <Graph />
