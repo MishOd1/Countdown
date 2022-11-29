@@ -31,7 +31,7 @@ const options= {
     curve: 'straight'
   },
   title: {
-    text: 'Product Trends by Month',
+    text: 'Halving Events Impact On BTC Price',
     align: 'left'
   },
   grid: {
